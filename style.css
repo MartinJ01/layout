@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "TT Lakes";
+    font-weight: normal;
+    src: url(TTLakes-Medium.ttf);
+}
+
+body {
+    margin: 0;
+    background: #F8F8F8;
+}
+
+nav {
+    background-color: transparent;
+}
+

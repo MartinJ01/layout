@@ -1,0 +1,55 @@
+.scrollbar {
+    padding-inline-start: 16px;
+    padding-inline-end: 16px;
+    height: 40px;
+    overflow-x: scroll;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-progress-appearance: none;
+}
+
+.scrollbar::-webkit-scrollbar {
+    display: none;
+    background: transparent;
+}
+
+.scrollbar__section {
+    height: 36px;
+    align-self: center;
+    color: #7E7E82;
+    font-family: "TT Lakes";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: -0.2px;
+    text-align: center;
+}
+
+.scrollbar__text-bg {
+    position: relative;
+    width: max-content;
+    height: 40px;
+    padding: 8px 17px 8px 17px;
+    border-radius: 6px;
+    align-items: center;
+    background: #FFF;
+    box-sizing: border-box;
+    background-color: transparent;
+}
+
+.scrollbar__radiobutton:checked + .scrollbar__text-bg {
+    border: 2px solid #B8FFEC;
+    background-color: #FFFFFF;
+    transform: translateY(-2px);
+}
+
+.scrollbar__radiobutton {
+    position: absolute;
+    appearance: none;
+    -ms-progress-appearance: none;
+}

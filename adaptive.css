@@ -1,0 +1,212 @@
+@media (min-width: 320px) {
+    #burger {
+        left: 16px;
+    }
+    
+    #repair {
+        right: 72px;
+    }
+
+    #checkstatus {
+        right: 16px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 1119px) {
+    #repair::before {
+        content: "";
+        position: absolute;
+        height: 32px;
+        width: 2px;
+        border-radius: 1px;
+        background: #EAEAEA;
+        align-items: center;
+        transform: translate(-42px, -16px);
+    }
+}
+
+@media (max-width: 767px) {
+    #call, #chat, #profile {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    #burger::after {
+        content: "";
+        position: absolute;
+        height: 32px;
+        width: 2px;
+        border-radius: 1px;
+        background: #EAEAEA;
+        align-items: center;
+        transform: translate(40px, -16px);
+    }
+
+    #group {
+        left: 106.726px;
+    }
+
+    #call {
+        right: 274px;
+    }
+
+    #chat {
+        right: 218px;
+    }
+
+    #profile{
+        right: 162px;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .content__textbox {
+        width: 312px;
+    }
+
+    img {
+        width: 360px;
+        flex-shrink: 0;
+        transform: translateY(24px);
+        position: absolute;
+        right: 40px;
+        border-radius: 10px;
+    }
+}
+
+@media (max-width: 1119px) {
+    .reviews {
+        display: none;
+    }
+}
+
+@media (min-width: 1120px) {
+    nav {
+        position: relative;
+        align-items: center;
+        height: 90px;
+    }
+
+    .navigation {
+        border-bottom: none;
+    }
+
+    #burger, #group, #call, #chat, #profile {
+        display: none;
+    }
+    
+    .heading {
+        order: 1;
+        position: absolute;
+        padding-left: 32px;
+    }
+
+    .heading::before {
+        transform: translate(-32px);
+    }
+
+    .navigation {
+        order: 2;
+        position: absolute;
+        right: 32px;
+    }
+
+    #checkstatus {
+        right: 12px;
+    }
+
+    #checkstatus::before {
+        content: "Статус ремонта";
+        position: absolute;
+        text-align: center;
+        white-space: nowrap;
+        width: 119px;
+        color: #1B1C21;
+        font-family: "TT Lakes";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px; /* 150% */
+        letter-spacing: -0.2px;
+        transform: translate(-139px, 8px);
+    }
+
+    #repair {
+        right: 232px;
+    }
+
+    #repair::before {
+        content: "Оставить заявку";
+        position: absolute;
+        text-align: center;
+        white-space: nowrap;
+        width: 125px;
+        color: #1B1C21;
+        text-align: right;
+        font-family: "TT Lakes";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px; /* 150% */
+        letter-spacing: -0.2px;
+        transform: translate(-155px, -12px);
+    }
+
+    .scrollbar {
+        justify-content: space-between;
+        padding-inline-start: 0;
+        padding-inline-end: 0;
+        margin-left: 32px;
+        margin-right: 37px;
+    }
+
+    img {
+        width: 531.346px;
+        height: 383.241px;
+        flex-shrink: 0;
+        transform: translateY(24px);
+        position: absolute;
+        right: 28.65px;
+        border-radius: 10px;
+    }
+
+    .content__textbox {
+        position: absolute;
+        width: 490px;
+        left: 16px;
+        color: #1B1C21;
+        font-family: "TT Lakes";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px; /* 142.857% */
+        letter-spacing: 0.2px;
+    }
+
+    .content__expand {
+        position: absolute;
+        color: #1B1C21;
+        font-family: "TT Lakes";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px; /* 150% */
+        letter-spacing: -0.2px;
+    }
+
+    .reviews {
+        color: #7E7E82;
+        font-family: "TT Lakes";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px; /* 150% */
+        letter-spacing: -0.2px;
+        padding-top: 22px;
+        padding-left: 56px;
+    }
+}
